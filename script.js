@@ -33,14 +33,3 @@ function typeText() {
 }
 
 typeText();
-
-
-
-
-
-
-
-
-
-
-
