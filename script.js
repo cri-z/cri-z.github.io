@@ -5,7 +5,7 @@ let index = 0;
 const textSequence = [
     "c", "cr", "cri", "cris", "crist", "cristo", "cristob", "cristoba",
     "cristobal", "cristobal ", "cristobal r", "cristobal ro", "cristobal rod",
-    "cristobal rodr", "cristobal rodri", "cristobal rodri", "cristobal rodrig",
+    "cristobal rodr", "cristobal rodri", "cristobal rodrig",
     "cristobal rodrigu", "cristobal rodrigue", "cristobal rodriguez","cristobal rodriguz",
     "cristobal rodrigz","cristobal rodriz",
     "cristobal rodrz",
