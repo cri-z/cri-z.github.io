@@ -40,15 +40,14 @@ body {
   display: none; /* Oculta la barra al principio */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .terminal {
-    font-size: 40px; /* Reducir tamaño de fuente */
-    padding: 10px; /* Ajustar espaciado */
+    font-size: 30px; /* Reducir tamaño de fuente aún más */
+    padding: 5px; /* Ajustar espaciado aún más */
   }
 
   .cursor {
-    height: 20px; /* Ajustar altura del cursor */
-    animation: blink 1s infinite; /* Ajustar duración de la animación */
+    height: 10px; /* Ajustar altura del cursor aún más */
   }
 }
 
