@@ -23,8 +23,8 @@ const textSequence = [
 ];
 
 function typeText() {
-  const isLastOr19 = index === textSequence.length - 1 || index === 19;
-  const delay = isLastOr19 ? 1500 : 100;
+  const isLastOr18 = index === textSequence.length - 1 || index === 18;
+  const delay = isLastOr18 ? 1500 : 100;
 
   outputElement.textContent = textSequence[index];
   index = (index + 1) % textSequence.length;
