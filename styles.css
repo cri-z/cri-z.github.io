@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1e1e1e;
+  overflow: hidden; /* Evita el desplazamiento horizontal */
+}
+
+.terminal {
+  background-color: #1e1e1e;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  font-size: 100px; /* Aumenta el tamaño de letra */
+  padding: 20px;
+  border: none; /* Quita el borde */
+  position: relative;
+  display: inline-block;
+  white-space: nowrap; /* Evita el salto de línea */
+  overflow: hidden; /* Evita que el texto desplace la barra */
+}
+
+#output {
+  margin: 0;
+  display: inline-block; /* Asegura que el texto no ocupe toda la línea */
+  position: relative;
+  z-index: 1; /* Coloca el texto por encima de la barra */
+}
+
+.cursor {
+  width: 16px; /* Ajusta el ancho del cursor según el tamaño de letra */
+  height: 56px; /* Ajusta la altura del cursor según el tamaño de letra */
+  background-color: #00ff00;
+  animation: blink 0.7s infinite;
+  position: absolute;
+  top: 50%; /* Alinea la barra verticalmente */
+  transform: translateY(-50%); /* Centra verticalmente la barra */
+  left: 0; /* Inicialmente al inicio del texto */
+  display: none; /* Oculta la barra al principio */
+}
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
